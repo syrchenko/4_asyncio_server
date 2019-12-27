@@ -1,7 +1,7 @@
 import asyncio
 
 while True:
-    file=open('server.log','a')
+    file=open('file1','a')
     HOST = input('Введите адрес хоста:\n')
     file.write("Запрашиваю адрес хоста\n")
     if HOST=='localhost':
@@ -24,7 +24,7 @@ while True:
 
 
 while True:
-    file=open('server.log','a')
+    file=open('file1','a')
     PORT=input('Введите номер порта от 1024 до 49151: \n')
     PORT=int(PORT)
     file.write("Запрашиваю номер порта\n")
